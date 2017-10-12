@@ -1,0 +1,675 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:2:1-409:12
+	package
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:17:22-81
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:21:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:23:22-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:27:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:28:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:29:5-90
+	android:required
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:29:64-87
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:29:19-63
+application
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:31:5-407:19
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:34:9-41
+	android:icon
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:33:9-43
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:35:9-68
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:32:9-28
+activity#com.senter.demo.uhf.Activity0ModuleSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:40:9-49:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:41:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:47:27-74
+activity#com.senter.demo.uhf.modelA.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:53:9-58:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:55:13-36
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:57:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:54:13-81
+activity#com.senter.demo.uhf.modelA.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:59:9-64:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:61:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:63:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:60:13-73
+activity#com.senter.demo.uhf.modelA.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:65:9-70:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:67:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:69:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:66:13-68
+activity#com.senter.demo.uhf.modelA.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:71:9-76:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:73:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:75:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:72:13-69
+activity#com.senter.demo.uhf.modelA.Activity3Erase
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:77:9-82:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:79:13-46
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:81:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:78:13-69
+activity#com.senter.demo.uhf.modelA.Activity4Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:83:9-88:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:85:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:87:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:84:13-68
+activity#com.senter.demo.uhf.modelA.Activity5Unlock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:89:9-94:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:92:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:91:13-63
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:93:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:90:13-70
+activity#com.senter.demo.uhf.modelA.Activity6Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:95:9-100:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:98:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:97:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:99:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:96:13-68
+activity#com.senter.demo.uhf.modelA.Activity7Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:101:9-106:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:103:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:105:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:102:13-72
+activity#com.senter.demo.uhf.modelB.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:111:9-116:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:113:13-36
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:115:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:112:13-81
+activity#com.senter.demo.uhf.modelB.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:117:9-122:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:119:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:121:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:118:13-73
+activity#com.senter.demo.uhf.modelB.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:123:9-128:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:126:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:125:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:127:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:124:13-68
+activity#com.senter.demo.uhf.modelB.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:129:9-134:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:131:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:133:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:130:13-69
+activity#com.senter.demo.uhf.modelB.Activity3Erase
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:135:9-140:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:138:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:137:13-46
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:139:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:136:13-69
+activity#com.senter.demo.uhf.modelB.Activity4Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:141:9-146:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:144:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:143:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:145:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:142:13-68
+activity#com.senter.demo.uhf.modelB.Activity5Unlock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:147:9-152:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:150:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:149:13-63
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:151:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:148:13-70
+activity#com.senter.demo.uhf.modelB.Activity6Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:153:9-158:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:155:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:157:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:154:13-68
+activity#com.senter.demo.uhf.modelB.Activity7Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:159:9-164:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:162:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:161:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:163:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:160:13-72
+activity#com.senter.demo.uhf.modelC.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:169:9-174:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:172:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:171:13-36
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:173:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:170:13-81
+activity#com.senter.demo.uhf.modelC.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:175:9-180:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:178:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:177:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:179:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:176:13-73
+activity#com.senter.demo.uhf.modelC.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:181:9-186:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:184:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:183:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:185:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:182:13-68
+activity#com.senter.demo.uhf.modelC.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:187:9-192:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:190:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:189:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:191:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:188:13-69
+activity#com.senter.demo.uhf.modelC.Activity4Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:193:9-198:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:195:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:197:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:194:13-68
+activity#com.senter.demo.uhf.modelC.Activity5Unlock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:199:9-204:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:202:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:201:13-63
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:203:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:200:13-70
+activity#com.senter.demo.uhf.modelC.Activity6Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:205:9-210:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:208:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:207:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:209:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:206:13-68
+activity#com.senter.demo.uhf.modelC.Activity7Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:211:9-216:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:214:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:213:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:215:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:212:13-72
+activity#com.senter.demo.uhf.modelD1.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:220:9-225:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:222:13-37
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:224:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:221:13-82
+activity#com.senter.demo.uhf.modelD1.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:226:9-231:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:228:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:230:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:227:13-74
+activity#com.senter.demo.uhf.modelD1.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:232:9-237:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:235:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:234:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:236:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:233:13-69
+activity#com.senter.demo.uhf.modelD1.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:238:9-243:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:241:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:240:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:242:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:239:13-70
+activity#com.senter.demo.uhf.modelD1.Activity3Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:244:9-249:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:247:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:246:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:248:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:245:13-69
+activity#com.senter.demo.uhf.modelD1.Activity4Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:250:9-255:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:253:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:252:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:254:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:251:13-69
+activity#com.senter.demo.uhf.modelD1.Activity5Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:256:9-261:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:259:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:258:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:260:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:257:13-73
+activity#com.senter.demo.uhf.modelD2.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:266:9-271:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:269:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:268:13-37
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:270:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:267:13-82
+activity#com.senter.demo.uhf.modelD2.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:272:9-277:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:275:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:274:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:276:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:273:13-74
+activity#com.senter.demo.uhf.modelD2.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:278:9-283:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:281:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:280:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:282:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:279:13-69
+activity#com.senter.demo.uhf.modelD2.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:284:9-289:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:287:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:286:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:288:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:285:13-70
+activity#com.senter.demo.uhf.modelD2.Activity3Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:290:9-295:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:293:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:292:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:294:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:291:13-69
+activity#com.senter.demo.uhf.modelD2.Activity4Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:296:9-301:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:299:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:298:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:300:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:297:13-69
+activity#com.senter.demo.uhf.modelD2.Activity5Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:302:9-307:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:305:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:304:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:306:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:303:13-73
+activity#com.senter.demo.uhf.modelD2.iso18k6b.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:310:9-315:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:313:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:312:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:314:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:311:13-83
+activity#com.senter.demo.uhf.modelD2.iso18k6b.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:316:9-321:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:319:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:318:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:320:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:317:13-78
+activity#com.senter.demo.uhf.modelD2.iso18k6b.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:322:9-327:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:325:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:324:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:326:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:323:13-79
+activity#com.senter.demo.uhf.modelD2.iso18k6b.Activity3Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:328:9-333:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:331:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:330:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:332:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:329:13-78
+activity#com.senter.demo.uhf.modelD2.iso18k6b.Activity4QueryLock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:334:9-339:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:337:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:336:13-50
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:338:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:335:13-83
+activity#com.senter.demo.uhf.modelF.Activity_FunctionSelection
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:343:9-348:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:346:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:345:13-36
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:347:13-74
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:344:13-81
+activity#com.senter.demo.uhf.modelF.Activity0Inventory
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:349:9-354:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:352:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:351:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:353:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:350:13-73
+activity#com.senter.demo.uhf.modelF.Activity1Read
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:355:9-360:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:358:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:357:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:359:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:356:13-68
+activity#com.senter.demo.uhf.modelF.Activity2Write
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:361:9-366:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:364:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:363:13-58
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:365:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:362:13-69
+activity#com.senter.demo.uhf.modelF.Activity4Lock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:367:9-372:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:370:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:369:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:371:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:368:13-68
+activity#com.senter.demo.uhf.modelF.Activity5Unlock
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:373:9-378:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:376:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:375:13-63
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:377:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:374:13-70
+activity#com.senter.demo.uhf.modelF.Activity6Kill
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:379:9-384:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:382:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:381:13-57
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:383:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:380:13-68
+activity#com.senter.demo.uhf.modelF.Activity7Settings
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:385:9-390:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:388:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:387:13-62
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:389:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:386:13-72
+activity#com.senter.demo.uhf.record.ActivityRecordsList
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:395:9-400:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:398:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:397:13-47
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:399:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:396:13-55
+activity#com.senter.demo.uhf.record.ActivityRecordDisplayer
+ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:401:9-406:20
+	android:screenOrientation
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:404:13-49
+	android:label
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:403:13-48
+	android:theme
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:405:13-60
+	android:name
+		ADDED from /Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/AndroidManifest.xml:402:13-59

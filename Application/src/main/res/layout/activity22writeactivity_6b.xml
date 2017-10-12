@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/idE22WriteActivity6b_inShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        layout="@layout/common_lv2overlap" />
+
+    <LinearLayout
+        android:id="@+id/idE22WriteActivity6b_WriteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/idE22WriteActivity6b_inDestTypes"
+            layout="@layout/common_dstoptypes" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/WriteData" />
+
+                <EditText
+                    android:id="@+id/idE22WriteActivity6b_etDataForWrite"
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:digits="0123456789abcdefgABCDEFG"
+                    android:ems="3"
+                    android:hint="@string/Jinzhi_16_band"
+                    android:inputType="number"
+                    android:text="FFFF"
+                    android:textSize="15dp" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/startAddr" />
+
+                    <EditText
+                        android:id="@+id/idE22WriteActivity6b_etPointer"
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:ems="3"
+                        android:hint="@string/decimalism"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/idE22WriteActivity6b_btnWrite"
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Write" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

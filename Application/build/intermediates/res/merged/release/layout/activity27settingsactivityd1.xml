@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Power" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/idE27SettingsActivityD1_Power_etShow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1000"
+                android:ems="2"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <Button
+                android:id="@+id/idE27SettingsActivityD1_Power_btnRead"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Read" />
+
+            <Button
+                android:id="@+id/idE27SettingsActivityD1_Power_btnSet"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Set" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

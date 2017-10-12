@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/inventorys_border.xml",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/inventorys_border.xml"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_read.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_read.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_find.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_find.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_kill.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_kill.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_wirte.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_wirte.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/rfidicon2.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/rfidicon2.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/btn_exit_bg.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/btn_exit_bg.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/frame_bg.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/frame_bg.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_unlock.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_unlock.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_lock.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_lock.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_erase.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_erase.png"
+    },
+    {
+        "merged": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/build/intermediates/res/merged/release/drawable/icon_config.png",
+        "source": "/Users/theptokim/Desktop/Luvita/New folder (2)/Application/src/main/res/drawable/icon_config.png"
+    }
+]

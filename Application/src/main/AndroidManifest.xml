@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.senter.demo.uhf"
+    android:versionCode="8"
+    android:versionName="1.8.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+
+    <application
+        android:name=".App"
+        android:icon="@drawable/rfidicon2"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+
+        <!-- ===================== -->
+        <!-- main activity -->
+        <!-- ========= android:screenOrientation="portrait" ============ -->
+        <activity
+            android:name=".Activity0ModuleSelection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- ===================== -->
+        <!-- activities for model A -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity_FunctionSelection"
+            android:label="Model A"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity3Erase"
+            android:label="@string/EraseData"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity4Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity5Unlock"
+            android:label="@string/idUnlockDataActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity6Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelA.Activity7Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- ===================== -->
+        <!-- activities for model B -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity_FunctionSelection"
+            android:label="Model B"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity3Erase"
+            android:label="@string/EraseData"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity4Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity5Unlock"
+            android:label="@string/idUnlockDataActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity6Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelB.Activity7Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- ===================== -->
+        <!-- activities for model C -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity_FunctionSelection"
+            android:label="Model C"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity4Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity5Unlock"
+            android:label="@string/idUnlockDataActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity6Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelC.Activity7Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- ===================== -->
+        <!-- activities for model D1 -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity_FunctionSelection"
+            android:label="Model D1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity3Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity4Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD1.Activity5Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- ===================== -->
+        <!-- activities for model D2 -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity_FunctionSelection"
+            android:label="Model D2"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity3Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity4Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity5Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- D2 6B -->
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.iso18k6b.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.iso18k6b.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.iso18k6b.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.iso18k6b.Activity3Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.iso18k6b.Activity4QueryLock"
+            android:label="@string/idRequestLock"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- ===================== -->
+        <!-- activities for model F -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity_FunctionSelection"
+            android:label="Model F"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity4Lock"
+            android:label="@string/idLockActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity5Unlock"
+            android:label="@string/idUnlockDataActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity6Kill"
+            android:label="@string/idKillActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.senter.demo.uhf.modelF.Activity7Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        
+        <!-- ===================== -->
+        <!-- Common ui -->
+        <!-- ===================== -->
+        <activity
+            android:name=".record.ActivityRecordsList"
+            android:label="@string/RecordFind"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".record.ActivityRecordDisplayer"
+            android:label="@string/RecordCheck"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+    </application>
+
+</manifest>

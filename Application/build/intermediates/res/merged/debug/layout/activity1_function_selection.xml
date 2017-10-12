@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_bg"
+    android:orientation="vertical" >
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/idMain2Activity_glApps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inInventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/ivAppIcon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_find" />
+
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Recognition"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_read" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Read"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_wirte" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Write"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inErease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_erase" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Erase"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_lock" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Locked"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inUnlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_unlock" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/UnLock"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inKill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_kill" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/Destruct"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/idMain2Activity_glApps_inSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_config" />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:lines="2"
+                android:text="@string/idConfigureActivity_title"/>
+
+        </LinearLayout>
+        
+    </org.apmem.tools.layouts.FlowLayout>
+
+</LinearLayout>

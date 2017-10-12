@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Power" />
+
+            <EditText
+                android:id="@+id/idE27SettingsActivityC_Power_etShow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1000"
+                android:ems="2"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <Button
+                android:id="@+id/idE27SettingsActivityC_Power_btnRead"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Read" />
+
+            <Button
+                android:id="@+id/idE27SettingsActivityC_Power_btnSet"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Set" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:text="@string/idSessionSelection" />
+
+                <Spinner
+                    android:id="@+id/idE27SettingsActivityC_Session_sprSession"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="3"
+                    android:entries="@array/strsS0S1S2S3" />
+                
+	            <Button
+	                android:id="@+id/idE27SettingsActivityC_Session_btnRead"
+	                style="@style/AppClickableHightStyle"
+	                android:layout_width="wrap_content"
+	                android:text="@string/Read" />
+	
+	            <Button
+	                android:id="@+id/idE27SettingsActivityC_Session_btnSet"
+	                style="@style/AppClickableHightStyle"
+	                android:layout_width="wrap_content"
+	                android:text="@string/Set" />
+            
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strAlgorithmSettings" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/strAlgorithmSelection" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprAlgrithm"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsAlgorithmStaticDynamic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/strQValue" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprStartQ"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsQ0_Q15" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/strRetryTimes" />
+
+                            <EditText
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_etRetryTimes"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:inputType="number" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/strRevert" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprRevert"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsUnrevertRevert" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:text="@string/strRunTillNon" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprRepeatUntilNoTag"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsEnableAndDisenable" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:text="@string/strQmin" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprMinQ"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsQ0_Q15" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:text="@string/strQmax" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprMaxQ"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="1"
+                                android:entries="@array/strsQ0_Q15" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:text="@string/strThreshold" />
+
+                            <Spinner
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_sprThresholdQ"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_weight="0.9"
+                                android:entries="@array/strsQ0_Q15" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <Button
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_btnGet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Get" />
+
+                            <Button
+                                android:id="@+id/idE27SettingsActivityC_Algrithm_btnSet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Set" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

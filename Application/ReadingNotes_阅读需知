@@ -1,0 +1,28 @@
+Reading Notes:
+Although the authors try to keep the demo software simple, but for various reasons , the code is complex more and more. 
+So the writer thinks he should make some suggestions.
+The demo software demonstrates our company's products on UHF functionality , based on publicly available SDK.
+In this SDK which now includes the functionality of at least six types of UHF module implementations ( the future may also increase ) . 
+The API is different between models .
+So read the project all the source code is not required , it is not recommended .
+
+1, first of all, please confirm your purchase models used by the ultra high frequency module model, this can consult our company's business people, or through the demonstration software automatic detection.
+2, check the usage of the specified UHF module , which is recorded in the javadoc inside the sdk . Javadoc have both Chinese and English versions.
+3, if some of the API, Javadoc in the lack of specific, you can find the specific sample used in the demo software.
+
+
+
+
+
+
+阅读需知：
+尽管作者尽力保持本演示软件的简单，不过基于各种原因，代码是越来越复杂了。所以作者认为自己应该做出一些建议。
+本演示软件演示了我们公司产品关于超高频的功能，其基于公开发布的SDK。
+在这个SDK里面现包括了至少六种型号的超高频模块的功能实现（未来可能还会增加）。而型号之间的API也是不同的，也就是说使用方法是不同的。
+所以阅读本项目所有的源代码是不需要的，也是不推荐的。
+
+1、首先请先确定您所购机型所用的超高频模块型号，这个可以咨询我们公司的商务人员，或通过演示软件自动检测。
+2、查询您所使用的超高频模块的使用方法，这些记录在了sdk的javadoc里面。javadoc分别有中文和英文版本。
+3、如果对某些API，javadoc中所述不够具体，可以在演示软件中查找具体的使用样例。
+
+

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Power" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/idE27SettingsActivityD2_Power_etShow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1000"
+                android:ems="2"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <Button
+                android:id="@+id/idE27SettingsActivityD2_Power_btnRead"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Read" />
+
+            <Button
+                android:id="@+id/idE27SettingsActivityD2_Power_btnSet"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Set" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idE27SettingsActivityD2_Temporary_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Temporary_colon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/idE27SettingsActivityD2_Temporary_tvShow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1000"
+                android:text="" >
+            </TextView>
+
+            <Button
+                android:id="@+id/idE27SettingsActivityD2_Temporary_btnRead"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/Read" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idE27SettingsActivityD2_Protocol_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Protocol_colon" />
+
+        <RadioGroup
+            android:id="@+id/idE27SettingsActivityD2_Protocol_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/idE27SettingsActivityD2_Protocol_rb6C"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1"
+                android:text="@string/str6C" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/idE27SettingsActivityD2_Protocol_rb6B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str6B" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

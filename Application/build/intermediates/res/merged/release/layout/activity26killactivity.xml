@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/idE26KillActivity_inShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        layout="@layout/common_lv2overlap" />
+
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DontOpr"
+            android:textColor="@color/red" />
+    <!-- kill -->
+
+    <LinearLayout
+        android:id="@+id/idE26KillActivity_Kill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        
+        <include
+            android:id="@+id/idE26KillActivity_inDestTypes"
+            layout="@layout/common_dstoptypes" />
+        
+        <Button
+            android:id="@+id/idE26KillActivity_btnKill"
+            android:layout_width="match_parent"
+                style="@style/AppClickableHightStyle"
+            android:text="Kill" />
+    </LinearLayout>
+
+</LinearLayout>

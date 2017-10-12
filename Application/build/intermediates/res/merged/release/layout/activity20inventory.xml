@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/idE20InventoryActivity_inShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        layout="@layout/common_lv2overlap" />
+
+    <LinearLayout
+        android:id="@+id/idE20InventoryMain_llInvestory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/idE20InventoryMain_llInvestory_rgRbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventorys_border"
+            android:focusable="false"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbSingleStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SingleLableOne" 
+                android:visibility="gone"
+                />
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbSingleTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SingleLableCucle" 
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbAntiCollision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/AvoidCollisionCycle" 
+                android:visibility="gone"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:orientation="horizontal"
+             >
+            <Button
+                android:id="@+id/idE20InventoryMain_llInvestory_btnStart"
+                android:layout_width="match_parent"
+                style="@style/AppClickableHightStyle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/Inventory" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

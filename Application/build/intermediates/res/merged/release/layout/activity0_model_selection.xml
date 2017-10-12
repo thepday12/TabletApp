@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ChooseTheModuleTypeOfUhf"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelA" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelB" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelC" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelD1" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleD2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelD2" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelF" />
+        <Button
+            android:id="@+id/idActivity0ModelSelection_btnModuleAutoDetect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ModelSelect_ModelDetection" />
+
+        <CheckBox
+            android:id="@+id/idActivity0ModelSelection_cbRememberChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:checked="true"
+            android:text="@string/ModelSelect_RememberChoice" />
+
+    </LinearLayout>
+
+</LinearLayout>

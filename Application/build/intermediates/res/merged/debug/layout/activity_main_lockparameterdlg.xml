@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Kill -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kill Password"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_KillPwd_cbPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="Pwd     R/W:"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_KillPwd_spinnerPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_KillPwd_cbPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:text="Perma Lock"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_KillPwd_spinnerPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Access -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access Password"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_AcesPwd_cbPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="Pwd   R/W:"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_AcesPwd_spinnerPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_AcesPwd_cbPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:text="Perma Lock"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_AcesPwd_spinnerPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Epc -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Epc"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_Epc_cbPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:maxLines="2"
+                android:text="Pwd   Write:"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_Epc_spinnerPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_Epc_cbPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:text="Perma Lock"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_Epc_spinnerPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tid -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+		
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tid"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+			<CheckBox
+               android:id="@+id/idMainActivityLockDlg_Tid_cbSet"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="3"
+               android:text="Set: "
+               android:textSize="12dp" />
+		
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_Tid_cbPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:maxLines="2"
+                android:text="Pwd   Write:"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_Tid_spinnerPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_Tid_cbPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:text="Perma Lock"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_Tid_spinnerPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- User -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+			
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_User_cbPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:maxLines="2"
+                android:text="Pwd   Write:"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_User_spinnerPwdRW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+
+            <CheckBox
+                android:id="@+id/idMainActivityLockDlg_User_cbPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:text="Perma Lock"
+                android:textSize="12dp" />
+
+            <Spinner
+                android:id="@+id/idMainActivityLockDlg_User_spinnerPermaLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/lockPayloadValues" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

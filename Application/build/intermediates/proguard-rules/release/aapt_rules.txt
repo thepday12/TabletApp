@@ -1,0 +1,181 @@
+# view AndroidManifest.xml #generated:42
+-keep class com.senter.demo.uhf.Activity0ModuleSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.senter.demo.uhf.App { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.senter.demo.uhf.modelA.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.senter.demo.uhf.modelA.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.senter.demo.uhf.modelA.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.senter.demo.uhf.modelA.Activity3Erase { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.senter.demo.uhf.modelA.Activity4Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.senter.demo.uhf.modelA.Activity5Unlock { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.senter.demo.uhf.modelA.Activity6Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.senter.demo.uhf.modelA.Activity7Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.senter.demo.uhf.modelA.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.senter.demo.uhf.modelB.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.senter.demo.uhf.modelB.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.senter.demo.uhf.modelB.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.senter.demo.uhf.modelB.Activity3Erase { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.senter.demo.uhf.modelB.Activity4Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.senter.demo.uhf.modelB.Activity5Unlock { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.senter.demo.uhf.modelB.Activity6Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.senter.demo.uhf.modelB.Activity7Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.senter.demo.uhf.modelB.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.senter.demo.uhf.modelC.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.senter.demo.uhf.modelC.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.senter.demo.uhf.modelC.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.senter.demo.uhf.modelC.Activity4Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.senter.demo.uhf.modelC.Activity5Unlock { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.senter.demo.uhf.modelC.Activity6Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.senter.demo.uhf.modelC.Activity7Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.senter.demo.uhf.modelC.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.senter.demo.uhf.modelD1.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.senter.demo.uhf.modelD1.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.senter.demo.uhf.modelD1.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.senter.demo.uhf.modelD1.Activity3Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.senter.demo.uhf.modelD1.Activity4Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.senter.demo.uhf.modelD1.Activity5Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.senter.demo.uhf.modelD1.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:274
+-keep class com.senter.demo.uhf.modelD2.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class com.senter.demo.uhf.modelD2.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class com.senter.demo.uhf.modelD2.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:292
+-keep class com.senter.demo.uhf.modelD2.Activity3Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:298
+-keep class com.senter.demo.uhf.modelD2.Activity4Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:304
+-keep class com.senter.demo.uhf.modelD2.Activity5Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.senter.demo.uhf.modelD2.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:312
+-keep class com.senter.demo.uhf.modelD2.iso18k6b.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class com.senter.demo.uhf.modelD2.iso18k6b.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:324
+-keep class com.senter.demo.uhf.modelD2.iso18k6b.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.senter.demo.uhf.modelD2.iso18k6b.Activity3Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:336
+-keep class com.senter.demo.uhf.modelD2.iso18k6b.Activity4QueryLock { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.senter.demo.uhf.modelF.Activity0Inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:357
+-keep class com.senter.demo.uhf.modelF.Activity1Read { <init>(...); }
+
+# view AndroidManifest.xml #generated:363
+-keep class com.senter.demo.uhf.modelF.Activity2Write { <init>(...); }
+
+# view AndroidManifest.xml #generated:369
+-keep class com.senter.demo.uhf.modelF.Activity4Lock { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.senter.demo.uhf.modelF.Activity5Unlock { <init>(...); }
+
+# view AndroidManifest.xml #generated:381
+-keep class com.senter.demo.uhf.modelF.Activity6Kill { <init>(...); }
+
+# view AndroidManifest.xml #generated:387
+-keep class com.senter.demo.uhf.modelF.Activity7Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:345
+-keep class com.senter.demo.uhf.modelF.Activity_FunctionSelection { <init>(...); }
+
+# view AndroidManifest.xml #generated:403
+-keep class com.senter.demo.uhf.record.ActivityRecordDisplayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:397
+-keep class com.senter.demo.uhf.record.ActivityRecordsList { <init>(...); }
+
+# view res/layout/activity1_function_selection.xml #generated:8
+# view res/layout/activity1_function_selection_d1.xml #generated:172
+# view res/layout/activity1_function_selection_d1.xml #generated:19
+# view res/layout/activity1_function_selection_d2.xml #generated:173
+# view res/layout/activity1_function_selection_d2.xml #generated:19
+# view res/layout/activity1_function_selection_d2.xml #generated:302
+# view res/layout/activity1_function_selection_e.xml #generated:179
+# view res/layout/activity1_function_selection_e.xml #generated:25
+-keep class org.apmem.tools.layouts.FlowLayout { <init>(...); }
+

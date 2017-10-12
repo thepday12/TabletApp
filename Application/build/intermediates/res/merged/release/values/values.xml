@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="E2DestOpTypes">
+        <item>Pointed label</item>
+        <item>Any label</item>
+        <item>Match label</item>
+    </string-array>
+    <string-array name="E2FrequencyMode">
+        <item>Chinese Standard 920-925Mhz</item>
+        <item>Chinese Standard 840-845Mhz</item>
+        <item>ETSI</item>
+        <item>Fixed frequency 915Mhz</item>
+        <item>Customized mode</item>
+    </string-array>
+    <string-array name="E2HopMode">
+        <item>Random hopping</item>
+        <item>Hopping from high to low</item>
+        <item>Hopping from low to high</item>
+    </string-array>
+    <string-array name="E2PureNum1_16">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="SelectRecordAction">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="SelectRecordIndexes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="SelectRecordTarget">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="Sessions_S0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+    <string-array name="banksStrings">
+        <item>Reserved</item>
+        <item>Epc</item>
+        <item>Tid</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="idArray1To8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="interrogatord_lockfields">
+        <item>User bank</item>
+        <item>Tid bank</item>
+        <item>Epc bank</item>
+        <item>Apwd</item>
+        <item>Kpwd</item>
+    </string-array>
+    <string-array name="lockPayloadValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mainOperations">
+        <item>Identification</item>
+        <item>Power reading and setting</item>
+        <item> Frequency reading</item>
+        <item>Read</item>
+        <item>Write</item>
+        <item>Match</item>
+        <item>Erase</item>
+        <item>Lock</item>
+        <item>Destruct</item>
+    </string-array>
+    <string-array name="mainOptionTypes">
+        <item>Single tag</item>
+        <item>Single tag cyclic</item>
+        <item>Anti-collision cyclic</item>
+    </string-array>
+    <string-array name="strsAlgorithmStaticDynamic">
+        <item>Fixed Q</item>
+        <item>Dynamic Q</item>
+    </string-array>
+    <string-array name="strsEnableAndDisenable">
+        <item>Enable</item>
+        <item>Disnable</item>
+    </string-array>
+    <string-array name="strsQ0_Q15">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="strsS0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+    <string-array name="strsUnrevertRevert">
+        <item>Unrevert</item>
+        <item>Revert</item>
+    </string-array>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="antiquewhite">#FAEBD7</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#FFEBCD</color>
+    <color name="blue">#0000FF</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="brown">#A52A2A</color>
+    <color name="burlywood">#DEB887</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="coral">#FF7F50</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="crimson">#DC143C</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="darkblue">#00008B</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="darkgoldenrod">#B8860B</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="darkkhaki">#BDB76B</color>
+    <color name="darkmagenta">#8B008B</color>
+    <color name="darkolivegreen">#556B2F</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="darkorchid">#9932CC</color>
+    <color name="darkred">#8B0000</color>
+    <color name="darksalmon">#E9967A</color>
+    <color name="darkseagreen">#8FBC8F</color>
+    <color name="darkslateblue">#483D8B</color>
+    <color name="darkslategray">#2F4F4F</color>
+    <color name="darkslategrey">#2F4F4F</color>
+    <color name="darkturquoise">#00CED1</color>
+    <color name="darkviolet">#9400D3</color>
+    <color name="deeppink">#FF1493</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="firebrick">#B22222</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="forestgreen">#228B22</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="gold">#FFD700</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="greenyellow">#ADFF2F</color>
+    <color name="grey">#808080</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="hotpink">#FF69B4</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="indigo">#4B0082</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="lavenderblush">#FFF0F5</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="lemonchiffon">#FFFACD</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightcoral">#F08080</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="lightgreen">#90EE90</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="lightsalmon">#FFA07A</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#B0C4DE</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="lime">#00FF00</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="list_item_focus">#626fcd</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="mediumorchid">#BA55D3</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="mediumseagreen">#3CB371</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="mediumspringgreen">#00FA9A</color>
+    <color name="mediumturquoise">#48D1CC</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="mistyrose">#FFE4E1</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajowhite">#FFDEAD</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#FDF5E6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangered">#FF4500</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="palegoldenrod">#EEE8AA</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="palevioletred">#DB7093</color>
+    <color name="papayawhip">#FFEFD5</color>
+    <color name="peachpuff">#FFDAB9</color>
+    <color name="peru">#CD853F</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="rosybrown">#BC8F8F</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="saddlebrown">#8B4513</color>
+    <color name="salmon">#FA8072</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="selected">#fff33fff</color>
+    <color name="sienna">#A0522D</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="slateblue">#6A5ACD</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="tan">#D2B48C</color>
+    <color name="teal">#008080</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="tomato">#FF6347</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="unfocused">#cccccccc</color>
+    <color name="violet">#EE82EE</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="xdslframebackgroundcolor0">#0000</color>
+    <color name="xdslframebackgroundcolor9">#9000</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr format="enum" name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr><attr format="boolean" name="debugDraw"/></declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams"><attr format="boolean" name="layout_newLine"/><attr format="dimension" name="layout_horizontalSpacing"/><attr format="dimension" name="layout_verticalSpacing"/></declare-styleable>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <string name="AllUnLock">Unlock completely</string>
+    <string name="AnyLabel">Any Tag</string>
+    <string name="AnyMatch">Any match</string>
+    <string name="AreYouSave">Save the record?</string>
+    <string name="AssignedReadNumGreaterThanZero">Current pointed number of reads must be greater than Zero</string>
+    <string name="AvoidCollisionCycle">Anti-collision cycle</string>
+    <string name="Back">Back</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ChannelBandWidth">SPC:</string>
+    <string name="ChannelBandWidthCannotGreaterThan1000">channel bandwidth can not exceed 1000KHz</string>
+    <string name="ChannelNumber">CN:</string>
+    <string name="ChannelNumberCannotZero">Channel number can not be zero</string>
+    <string name="ChannelNumberIllegal">Channel number is out of module support</string>
+    <string name="ChannelNumberOutModuleSupport">Channel number is out of module support</string>
+    <string name="CheckRecord">Check record</string>
+    <string name="CurrentModuleNotSupportWrite">Current module doesn\'t support block write</string>
+    <string name="CurrentModuleOnlySupportSingleWordWrite">This module only supports single number mode input</string>
+    <string name="CurrentModuleOnlySupportTheAssignLabelErasure">This module only supports to erase the specified label</string>
+    <string name="CurrentModuleOnlySupportTheAssignLabelOpr">This module only supports operation to the specified label</string>
+    <string name="CurrentModulePowerRange">Current module power range [10,30]</string>
+    <string name="Data">  Data:</string>
+    <string name="Destruct">Kill</string>
+    <string name="DestructFailure">Kill failed</string>
+    <string name="DestructOrder">KPWD</string>
+    <string name="DontOpr">Non-professionals do not operate</string>
+    <string name="EmptyData">Clean data</string>
+    <string name="EraDataFailure">Erase failed:</string>
+    <string name="EraDataSuccessful">Erase successfully:</string>
+    <string name="Erase">Erase</string>
+    <string name="EraseData">Erase</string>
+    <string name="EraseNumber">Length</string>
+    <string name="FMAXCannotPass960Mhz">Should not exceed the maximum frequency 960MHz</string>
+    <string name="FileName">File Name</string>
+    <string name="Find">Find</string>
+    <string name="Frequency">Frequency:</string>
+    <string name="FrequencyBase">Base:</string>
+    <string name="FrequencyGetFailure">Get frequency failed, please try again later</string>
+    <string name="FrequencyRange">Range:</string>
+    <string name="FrequencySetFailure">Frequency set failed</string>
+    <string name="FrequencySetSuccessful">Frequency set successfully</string>
+    <string name="Get">Get</string>
+    <string name="Hint_10_Mask_length">Decimal mask length</string>
+    <string name="Hint_16_Addr">Address start with hexadecimal value</string>
+    <string name="Hint_16_Mask">Hexadecimal mask</string>
+    <string name="InError">Internal error</string>
+    <string name="InputCorrectErasNumber">Please input correct erase number</string>
+    <string name="InputCorrectLabel">Please point a correct label UII to operation</string>
+    <string name="InputCorrectReadAddr">Please input correct read address</string>
+    <string name="InputCorrectReadLength">Please input correct read length</string>
+    <string name="InputPrompt">Input data should be integer times of double-bytes</string>
+    <string name="InputStartAddr">Input start address</string>
+    <string name="InputValueAndUnit">Please input power value in dbm</string>
+    <string name="Inventory">Inventory</string>
+    <string name="ItemName">Item Name</string>
+    <string name="Jinzhi_16_band">Hex</string>
+    <string name="JumpLvMode">Hop mode：</string>
+    <string name="Label">Tag:</string>
+    <string name="Length">Length:</string>
+    <string name="LockFailure">Lock failed</string>
+    <string name="Locked">Lock</string>
+    <string name="MakeSurePDAexitRfid">No Rfid UHF communication module, make sure the current PDA memory have this module</string>
+    <string name="MastInput_Prompt">Input mask as integer number bytes</string>
+    <string name="MastLength_Insufficient">Input mask length is insufficient</string>
+    <string name="ModelSelect_ChooseTheModuleTypeOfUhf">Choose the module type of UHF</string>
+    <string name="ModelSelect_ModelA">Module A</string>
+    <string name="ModelSelect_ModelB">Module B</string>
+    <string name="ModelSelect_ModelC">Module C</string>
+    <string name="ModelSelect_ModelD1">Module D1</string>
+    <string name="ModelSelect_ModelD2">Module D2</string>
+    <string name="ModelSelect_ModelDetection">Automatic testing\n(A,B,C,D2)</string>
+    <string name="ModelSelect_ModelF">Module F</string>
+    <string name="ModelSelect_RememberChoice">Remember the option</string>
+    <string name="No">No</string>
+    <string name="OK">Confirm</string>
+    <string name="Power">Power：</string>
+    <string name="PrefixAndFileNameCannotEmpty">Prefix and file Name can not be empty</string>
+    <string name="Protocol_colon">Protocol：</string>
+    <string name="Read">Read</string>
+    <string name="ReadDataFailure">Read data unsuccessfully</string>
+    <string name="ReadFrequency">Read</string>
+    <string name="ReadNumber">Length</string>
+    <string name="Recognition">Inventory</string>
+    <string name="RecordCheck">Record check</string>
+    <string name="RecordFind">Record find</string>
+    <string name="SaveFailure">Save unsuccessfully</string>
+    <string name="SaveRecord">Save record</string>
+    <string name="SaveSuccessful">Save successfully</string>
+    <string name="ScanningLabel">Scanning tag</string>
+    <string name="SelectOneLabel">Select a tag</string>
+    <string name="Session">Session</string>
+    <string name="Set">Set</string>
+    <string name="SetFailure">Set unsuccessfully</string>
+    <string name="SetFrequency">Set</string>
+    <string name="SetMatch">Set Match</string>
+    <string name="SetOk">Set successfully</string>
+    <string name="SetQ">Set Q</string>
+    <string name="SingleLableCucle">Single Tag Cycle</string>
+    <string name="SingleLableOne">Single Tag Once</string>
+    <string name="SpecifyLabel">Pointed tag</string>
+    <string name="StartFrequency">BF:</string>
+    <string name="Stop">Stop</string>
+    <string name="Temporary_colon">Temporary:</string>
+    <string name="UnLock">Unlock</string>
+    <string name="UnLockFailure">Unlock failed</string>
+    <string name="WithoutDataToSave">No date to save</string>
+    <string name="Write">Write</string>
+    <string name="WriteData">Data</string>
+    <string name="WriteFailure">Write data failed</string>
+    <string name="WriteWordNumber">Write length:</string>
+    <string name="Yes">Yes</string>
+    <string name="about_msg">UHF Rfid Demo v1.1</string>
+    <string name="app_name">Rfid UHF Demo</string>
+    <string name="broadbandCannotGreaterThan12Mhz">When the base frequency is 50Khz, the bandwidth can not be greater than 12Mhz</string>
+    <string name="broadbandCannotGreaterThan32Mhz">When the base frequency is 50Khz, the bandwidth can not be greater than 32Mhz</string>
+    <string name="decimalism">Decima</string>
+    <string name="get">get</string>
+    <string name="idConfigureActivity_title">Configure</string>
+    <string name="idGetPowerFail">Get power fail</string>
+    <string name="idGetPowerSuccess">Get power success</string>
+    <string name="idGetSessionFail">Get Session Fail</string>
+    <string name="idGetSessionSucess">Get session Success</string>
+    <string name="idGetSingulationAlgorithmFail">Get singulation algorithm fail</string>
+    <string name="idGetSingulationAlgorithmSuccess">Get singulation algorithm success</string>
+    <string name="idInvalidPowerFormat">Power value format error</string>
+    <string name="idInvalidSingulationAlgorithmFormat">Invalid singulation algorithm format</string>
+    <string name="idInventoryFinished">Inventory finished</string>
+    <string name="idInventoryFinished_Colon">Inventory finished:</string>
+    <string name="idInventoryStopped__PleaseMoveTheTagAndTryAgain">Inventory stopped,please move the tag and try again</string>
+    <string name="idKillActivity_title">Kill</string>
+    <string name="idLockActivity_title">Lock</string>
+    <string name="idPleaseEnterTheCorrectPowerValue_3_32">Please enter the correct power value[3,32]</string>
+    <string name="idReadActivity_title">Read</string>
+    <string name="idRecordsList_SpinnerPrompt">Save setting</string>
+    <string name="idRequestLock">RequestLock</string>
+    <string name="idSessionSelection">Session selection</string>
+    <string name="idSetPowerFail">Set power fail</string>
+    <string name="idSetPowerSuccess">Set power success</string>
+    <string name="idSetQ">Set Q value</string>
+    <string name="idSetSessionFail">Set Session Fail</string>
+    <string name="idSetSessionSuccess">Set session success</string>
+    <string name="idSetSingulationAlgorithmFail">Set singulation algorithm fail</string>
+    <string name="idSetSingulationAlgorithmSuccess">Set singulation algorithm success</string>
+    <string name="idStart">Start</string>
+    <string name="idStop">Stop</string>
+    <string name="idTagsCount_Colon">Tags Count:</string>
+    <string name="idUnlockDataActivity_title">UnLock</string>
+    <string name="idWriteActivity_title">Write</string>
+    <string name="set">set</string>
+    <string name="startAddr">Index</string>
+    <string name="str6B">6B</string>
+    <string name="str6C">6C</string>
+    <string name="strAlgorithmSelection">Algorithm selection</string>
+    <string name="strAlgorithmSettings">Algorithm settings</string>
+    <string name="strApwd">APWD</string>
+    <string name="strKpwd">KPWD</string>
+    <string name="strQValue">Q value </string>
+    <string name="strQmax">Qmax(Valid in dynamic Q)</string>
+    <string name="strQmin">Qmin(Valid in dynamic Q)</string>
+    <string name="strRetryTimes">Retry Times</string>
+    <string name="strRevert">Revert</string>
+    <string name="strRunTillNon">Run till non(Valid in fixed Q)</string>
+    <string name="strSomethingWrongHasBeenDetected_ExitThisAppAndRetryPlease">Something wrong has been detected,exit this app and retry please.</string>
+    <string name="strThreshold">Threshold(Valid in dynamic Q)</string>
+    <string name="strWait4Close"> waiting for close...</string>
+    <string name="strWarning">Warning</string>
+    <string name="successful">Successful</string>
+    <string name="unPleaseStopInventoryFirst">Please stop inventory first</string>
+    <string name="workMode">Mode:</string>
+    <style name="AppClickableHightStyle">
+         <item name="android:layout_height">52dp</item>
+        </style>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

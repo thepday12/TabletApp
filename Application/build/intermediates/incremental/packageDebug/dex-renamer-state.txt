@@ -1,0 +1,4 @@
+#Thu Jul 13 14:46:43 ICT 2017
+base.0=C\:\\Users\\Tuyen\\Desktop\\New folder (2)\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Tuyen\\Desktop\\New folder (2)\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
